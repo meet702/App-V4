@@ -54,8 +54,8 @@ class HomeViewController: UIViewController, UICollectionViewDataSource {
         
         let section = NSCollectionLayoutSection(group: group)
         
-//        section.interGroupSpacing = 10
-        section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20)
+        section.interGroupSpacing = 10
+        section.contentInsets = NSDirectionalEdgeInsets(top:  0, leading: 20, bottom: 0, trailing: 20)
         let layout = UICollectionViewCompositionalLayout(section: section)
         return layout
     }
