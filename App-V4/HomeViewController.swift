@@ -33,6 +33,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource {
             animated: true
         )
         memoryRecapCollectionView.dataSource = self
+        print("Change 1")
     }
 
     func generateCompositionalLayout() -> UICollectionViewLayout {
