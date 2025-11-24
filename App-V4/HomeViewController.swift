@@ -51,7 +51,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource {
             layoutSize: groupSize,
             subitems: [item]
         )
-//        group.interItemSpacing = .fixed(10)
+      group.interItemSpacing = .fixed(10)
         
         let section = NSCollectionLayoutSection(group: group)
         
